@@ -34,7 +34,7 @@ yields the same results for coverage reports as the project test shell file incl
 
 This resulted in the following output:
 
-![Coverage Tool Result](report_images/isidora_images/[BEFORE]overall_coverage.png)
+![Coverage Tool Result](report_images\duru_images\overallcoverage-before.png)
 
 ### Your own coverage tool
 
@@ -224,11 +224,11 @@ the shared code in **conftest.py**.
 
 First we provide a screenshot of the old coverage results by running an existing tool:
 
-![Coverage Results Before](report_images/isidora_images/[BEFORE]overall_coverage.png)
+![Coverage Results Before](report_images\duru_images\overallcoverage-before.png)
 
 Here we show the improved overall coverage with all test modifications made by out group:
 
-![Coverage Results After](PENDING)
+![Coverage Results After](report_images\duru_images\[AFTER]overall.png)
 
 ## Statement of individual contributions
 
