@@ -34,7 +34,7 @@ yields the same results for coverage reports as the project test shell file incl
 
 This resulted in the following output:
 
-![Coverage Tool Result](report_images\duru_images\overallcoverage-before.png)
+[Coverage Tool Result](report_images\duru_images\overallcoverage-before.png)
 
 ### Your own coverage tool
 
@@ -67,6 +67,8 @@ the shared code in **conftest.py**.
 
     <img src="report_images\duru_images\duru-function1-existingtool-original-branches.png" alt="Branches Before with Existing Tool" width="600" />
 
+    <img src="report_images\duru_images\[BEFORE]branchesdel.png" alt="Branches Before" width="600" />
+    
     <img src="report_images\duru_images\[BEFORE]merge.png" alt="Coverage Tool Output merge()">
 
 - Function 2: `_delitem_()` function from **XrefTable** class from **PdfParser.py**
@@ -76,6 +78,8 @@ the shared code in **conftest.py**.
     <img src="report_images\duru_images\duru-function2-existingtool-original.png" alt="Coverage Before with Existing Tool" width="600" />
 
     <img src="report_images\duru_images\duru-function2-existingtool-original-branches.png" alt="Branches Before with Existing Tool" width="600" />
+
+    <img src="report_images\duru_images\[BEFORE]branchesmerge.png" alt="Branches Before" width="600" />
 
     <img src="report_images\duru_images\[BEFORE]_delitem_.png" alt="Coverage Tool Output _delitem_()">
 
@@ -170,6 +174,8 @@ the shared code in **conftest.py**.
 
     <img src="report_images\duru_images\[AFTER]merge.png" alt="Coverage After" width="600" />
 
+    The improvement was made as 3 test cases were enhanced, inputting wring number of bands, mismatched mode and lastly, mismatched size. This was done through calling the function `merge()` with an image parameter which had parameters according to the previously mentioned specifications. These new parameters given helped cover all 3 remaining branches in order to test the wrong inputs and mismatched parameters, allowing the coverage to be fully complete. 
+
 - Function 2: `_delitem_()` function from **XrefTable** class from **PdfParser.py**
 
     [Link to the commit](https://github.com/python-pillow/Pillow/commit/20073ecbea468116e1bb6af4565ad690603dc048#diff-c72dcbed11bc5b37bc6cdb1fa4a1d59b7d099cabe1939d723f2df5beb12bea45)
@@ -181,6 +187,8 @@ the shared code in **conftest.py**.
     <img src="report_images\duru_images\[AFTER]branchesdel.png" alt="Branches After with Existing Tool" width="600" />
 
     <img src="report_images\duru_images\[AFTER]_delitem_.png" alt="Coverage After" width="600" />
+
+    The previous tests did not cover the key being in new_entries, if the key was already deleted and is in deleted_entries, and lastly, if there was no key. These coverage of three conditions (branches) were improved by calling the `_delitem_` function and by deleting the keys which were put into the new or deleted entries structure. The non-existent keys were checked without giving the function a key to delete, raising an error. Therefore, all the conditions were covered by the test cases.
 
 
 **3. Isidora**
