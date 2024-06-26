@@ -167,9 +167,21 @@ the shared code in **conftest.py**.
 
 - Function 1: `merge()` function from **Image.py**
 
+    [Link to the commit](https://github.com/python-pillow/Pillow/commit/812925ed495e34b4e6859e82d67934e5bbf57820?diff=unified&w=1#diff-91ccafd24994206a83eb633473df986b3f80253740d76cdb7429664e3fb585bf)
+
+    <img src="report_images\duru_images\duru-function1-existingtool-original.png" alt="Coverage Before with Existing Tool" width="600" />
+
+    <img src="report_images\duru_images\duru-function1-existingtool-original-branches.png" alt="Branches Before with Existing Tool" width="600" />
+
     <img src="report_images\duru_images\[AFTER]merge.png" alt="Coverage After" width="600" />
 
 - Function 2: `_delitem_()` function from **XrefTable** class from **PdfParser.py**
+
+    [Link to the commit](https://github.com/python-pillow/Pillow/commit/20073ecbea468116e1bb6af4565ad690603dc048#diff-c72dcbed11bc5b37bc6cdb1fa4a1d59b7d099cabe1939d723f2df5beb12bea45)
+
+    <img src="report_images\duru_images\duru-function2-existingtool-original.png" alt="Coverage Before with Existing Tool" width="600" />
+
+    <img src="report_images\duru_images\duru-function2-existingtool-original-branches.png" alt="Branches Before with Existing Tool" width="600" />
 
     <img src="report_images\duru_images\[AFTER]_delitem_.png" alt="Coverage After" width="600" />
 
