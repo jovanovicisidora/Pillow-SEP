@@ -174,7 +174,7 @@ the shared code in **conftest.py**.
 
     <img src="report_images\duru_images\[AFTER]merge.png" alt="Coverage After" width="600" />
 
-    The improvement was made as 3 test cases were enhanced, inputting wrong number of bands, mismatched mode and lastly, mismatched size. This was done through calling the function `merge()`, assigning an image class which had parameters having the previously mentioned specific inputs. These new parameters given helped cover all 3 remaining branches in order to test the wrong inputs for merging the Image objects and mismatched parameters, allowing the coverage to be fully complete. 
+    The branch coverage for this function was improved from 40% to 100%. The improvement was made as 3 test cases were enhanced, inputting wrong number of bands, mismatched mode and lastly, mismatched size. This was done through calling the function `merge()`, assigning an image class which had parameters having the previously mentioned specific inputs. These new parameters given helped cover all 3 remaining branches in order to test the wrong inputs for merging the Image objects and mismatched parameters, allowing the coverage to be fully complete. 
 
 - Function 2: `_delitem_()` function from **XrefTable** class from **PdfParser.py**
 
@@ -188,7 +188,7 @@ the shared code in **conftest.py**.
 
     <img src="report_images\duru_images\[AFTER]_delitem_.png" alt="Coverage After" width="600" />
 
-    The previous tests did not cover the key being in new_entries, if the key was already deleted and is in deleted_entries, and lastly, if there was no key. These coverage of three conditions (branches) were improved by calling the `_delitem_` function and by deleting the keys which were put into the new or deleted entries structure. The non-existent keys were checked without giving the function a key to delete, raising an error. Therefore, all the conditions were covered by the test cases.
+    The branch coverage was improved from 25% to 100%. The previous tests did not cover the key being in new_entries, if the key was already deleted and is in deleted_entries, and lastly, if there was no key. These coverage of three conditions (branches) were improved by calling the `_delitem_` function and by deleting the keys which were put into the new or deleted entries structure. The non-existent keys were checked without giving the function a key to delete, raising an error. Therefore, all the conditions were covered by the test cases.
 
 
 **3. Isidora**
