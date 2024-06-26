@@ -67,7 +67,7 @@ the shared code in **conftest.py**.
 
     <img src="report_images\duru_images\duru-function1-existingtool-original-branches.png" alt="Branches Before with Existing Tool" width="600" />
 
-    <img src="report_images\duru_images\[BEFORE]branchesdel.png" alt="Branches Before" width="600" />
+    <img src="report_images\duru_images\[BEFORE]branchesmerge.png" alt="Branches Before" width="600" />
     
     <img src="report_images\duru_images\[BEFORE]merge.png" alt="Coverage Tool Output merge()">
 
@@ -79,7 +79,7 @@ the shared code in **conftest.py**.
 
     <img src="report_images\duru_images\duru-function2-existingtool-original-branches.png" alt="Branches Before with Existing Tool" width="600" />
 
-    <img src="report_images\duru_images\[BEFORE]branchesmerge.png" alt="Branches Before" width="600" />
+    <img src="report_images\duru_images\[BEFORE]branchesdel.png" alt="Branches Before" width="600" />
 
     <img src="report_images\duru_images\[BEFORE]_delitem_.png" alt="Coverage Tool Output _delitem_()">
 
