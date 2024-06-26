@@ -37,8 +37,7 @@ branches = {
     "1": False,
     "2": False,
 }
-i want to knowww is it true or is it all just fantasyyyyy, let me knowwww my darling little star
-and tell me once and for all is it like this or is it like that, i must konw this nooooooow
+
 def nextheader(fobj):
     return struct.unpack(">4sI", fobj.read(HEADERSIZE))
 
