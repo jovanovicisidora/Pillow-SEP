@@ -174,7 +174,7 @@ the shared code in **conftest.py**.
 
     <img src="report_images\duru_images\[AFTER]merge.png" alt="Coverage After" width="600" />
 
-    The improvement was made as 3 test cases were enhanced, inputting wring number of bands, mismatched mode and lastly, mismatched size. This was done through calling the function `merge()` with an image parameter which had parameters according to the previously mentioned specifications. These new parameters given helped cover all 3 remaining branches in order to test the wrong inputs and mismatched parameters, allowing the coverage to be fully complete. 
+    The improvement was made as 3 test cases were enhanced, inputting wrong number of bands, mismatched mode and lastly, mismatched size. This was done through calling the function `merge()` with an image parameter which had parameters according to the previously mentioned specifications. These new parameters given helped cover all 3 remaining branches in order to test the wrong inputs and mismatched parameters, allowing the coverage to be fully complete. 
 
 - Function 2: `_delitem_()` function from **XrefTable** class from **PdfParser.py**
 
