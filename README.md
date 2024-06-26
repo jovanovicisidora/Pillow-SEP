@@ -38,21 +38,6 @@ This resulted in the following output:
 
 ### Your own coverage tool
 
-<The following is supposed to be repeated for each group member>
-
-<Group member name>
-
-<Function 1 name>
-
-<Show a patch (diff) or a link to a commit made in your forked repository that shows the instrumented code to gather
-coverage measurements>
-
-<Provide a screenshot of the coverage results output by the instrumentation>
-
-<Function 2 name>
-
-<Provide the same kind of information provided for Function 1>
-
 Each member of out group has chosen two functions and has instrumented our own coverage tool. For each function we
 created a dictionary with the branch ID as key, and a boolean as the value. If the branch was accessed by the tests,
 the boolean value would be changed from False to True. In order to calculate and display the coverage, all tests use
