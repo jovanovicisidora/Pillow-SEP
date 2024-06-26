@@ -166,6 +166,8 @@ the shared code in **conftest.py**.
 
     <img src="report_images\duru_images\duru-function1-existingtool-original-branches.png" alt="Branches Before with Existing Tool" width="600" />
 
+    <img src="report_images\duru_images\[AFTER]branchesmerge.png" alt="Branches After with Existing Tool" width="600" />
+
     <img src="report_images\duru_images\[AFTER]merge.png" alt="Coverage After" width="600" />
 
 - Function 2: `_delitem_()` function from **XrefTable** class from **PdfParser.py**
@@ -175,6 +177,8 @@ the shared code in **conftest.py**.
     <img src="report_images\duru_images\duru-function2-existingtool-original.png" alt="Coverage Before with Existing Tool" width="600" />
 
     <img src="report_images\duru_images\duru-function2-existingtool-original-branches.png" alt="Branches Before with Existing Tool" width="600" />
+
+    <img src="report_images\duru_images\[AFTER]branchesdel.png" alt="Branches After with Existing Tool" width="600" />
 
     <img src="report_images\duru_images\[AFTER]_delitem_.png" alt="Coverage After" width="600" />
 
