@@ -26,6 +26,12 @@ We used Coverage.py. We executed the coverage tool by running the following comm
 
 `python3 -bb -m pytest -v -x -W always --cov PIL --cov Tests --cov-report term Tests $REVERSE`
 
+or running 
+
+`./.ci/tests.sh` in the root directory of the project
+
+yields the same results for coverage reports as the project test shell file includes coverage installments.
+
 This resulted in the following output:
 
 ![Coverage Tool Result](report_images/isidora_images/[BEFORE]overall_coverage.png)
@@ -70,15 +76,15 @@ the shared code in **conftest.py**.
 
 - Function 1: `merge()` function from **Image.py**
 
-    <img src="report_images\duru_images\[BEFORE]merge.png" alt="Coverage Tool Output merge()">
-
     [Link to the commit](https://github.com/python-pillow/Pillow/commit/812925ed495e34b4e6859e82d67934e5bbf57820?diff=unified&w=1#diff-4805c79264fea07df59058db82ed74bb2f5c5023e212ac678536a534c56e5be2)
+
+    <img src="report_images\duru_images\[BEFORE]merge.png" alt="Coverage Tool Output merge()">
 
 - Function 2: `_delitem_()` function from **XrefTable** class from **PdfParser.py**
 
-    <img src="report_images\duru_images\[BEFORE]_delitem_.png" alt="Coverage Tool Output _delitem_()">
-
     [Link to the commit](https://github.com/python-pillow/Pillow/commit/27c7ac4dadf950418e21883ef7f9b9a209a7b481#diff-bd96187377efc66d34e30b3558ed2fe22ca780c035fe3e8d40dd9881b4801c6c)
+
+    <img src="report_images\duru_images\[BEFORE]_delitem_.png" alt="Coverage Tool Output _delitem_()">
 
 **3. Isidora**
 
@@ -145,7 +151,11 @@ the shared code in **conftest.py**.
 
 - Function 1: `merge()` function from **Image.py**
 
+    <img src="report_images\duru_images\[AFTER]merge.png" alt="Coverage After" width="600" />
+
 - Function 2: `_delitem_()` function from **XrefTable** class from **PdfParser.py**
+
+    <img src="report_images\duru_images\[AFTER]_delitem_.png" alt="Coverage After" width="600" />
 
 
 **3. Isidora**
