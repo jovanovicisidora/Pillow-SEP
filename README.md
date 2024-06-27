@@ -86,16 +86,19 @@ the shared code in **conftest.py**.
 
 - Function 1: 'decode()' from **BlpImagePlugin.py**
 
-    [Link to commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/5b375becfba73dbf9901c803348c0561f4c0021e
+  [Link to commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/5b375becfba73dbf9901c803348c0561f4c0021e
 
     <img src="report_images/sofija_images/our_tool_decode.png" alt="Coverage Tool Output" width="600" />
 
+    <img src="report_images/sofija_images/our_tool_branch7_before.png" alt="Coverage Tool Output" width="600" />
+
 - Function 2: 'read_32t' from **IcnsImagePlugin.py**
 
-    [Link to commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/0496f0b1bcca554ea5fcad0e53a672551bd7c101#diff-bb9af648f9d6055f580440e268d715dae9a22a2c4bfd47afd18bd834c05e96d2)
+  [Link to commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/0496f0b1bcca554ea5fcad0e53a672551bd7c101#diff-bb9af648f9d6055f580440e268d715dae9a22a2c4bfd47afd18bd834c05e96d2)
 
     <img src="report_images/sofija_images/our_tool_read_32t.png" alt="Coverage Tool Output" width="600" />
 
+    <img src="report_images/sofija_images/our_tool_branch8_before.png" alt="Coverage Tool Output" width="600" />
 
 ## Coverage improvement
 
@@ -161,21 +164,27 @@ the shared code in **conftest.py**.
 
 - Function 1: 'decode()' from **BlpImagePlugin.py**
 
-    [Link to commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/b4465c3711bbe7811b1f77d5d9cc78760f296463#diff-ffd01a62e614987be01f44aeed0c978fc9576964b6e6ff9d9bbba177044f1a28)
+  [Link to commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/b4465c3711bbe7811b1f77d5d9cc78760f296463#diff-ffd01a62e614987be01f44aeed0c978fc9576964b6e6ff9d9bbba177044f1a28)
 
     <img src="report_images/sofija_images/sofija-function1-existingtool-original-branches.png" alt="Coverage After" width="600" />
 
     <img src="report_images/sofija_images/sofija-function1-existing-improved-branches.png" alt="Coverage After" width="600" />
 
+    <img src="report_images/sofija_images/our_tool_branch7_before.png" alt="Coverage After" width="600" />
+
+    <img src="report_images/sofija_images/our_tool_branch7_after.png" alt="Coverage After" width="600" />
 
 - Function 2: 'read_32t()' from **IcnsImagePlugin.py**
 
-    [Link to commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/b4465c3711bbe7811b1f77d5d9cc78760f296463#diff-ce4d7f8290dcc8eeb3ae7c5ec7a56ecf43ca6eb92fcdc74284e788ab96ae3728)
+  [Link to commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/b4465c3711bbe7811b1f77d5d9cc78760f296463#diff-ce4d7f8290dcc8eeb3ae7c5ec7a56ecf43ca6eb92fcdc74284e788ab96ae3728)
 
     <img src="report_images/sofija_images/sofija-function2-existingtool-original-branches.png" alt="Coverage After" width="600" />
 
     <img src="report_images/sofija_images/sofija-function2-existing-improved-branches.png" alt="Coverage After" width="600" />
 
+  <img src="report_images/sofija_images/our_tool_branch8_before.png" alt="Coverage After" width="600" />
+
+    <img src="report_images/sofija_images/our_tool_branch8_after.png" alt="Coverage After" width="600" />
 
 ### Overall
 
