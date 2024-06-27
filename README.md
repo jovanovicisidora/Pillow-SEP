@@ -68,19 +68,36 @@ the shared code in **conftest.py**.
 
 **2. Duru**
 
+- Function 1: `merge()` function from **Image.py**
+
+    <img src="report_images\duru_images\[BEFORE]merge.png" alt="Coverage Tool Output merge()">
+
+    [Link to the commit](https://github.com/python-pillow/Pillow/commit/812925ed495e34b4e6859e82d67934e5bbf57820?diff=unified&w=1#diff-4805c79264fea07df59058db82ed74bb2f5c5023e212ac678536a534c56e5be2)
+
+- Function 2: `_delitem_()` function from **XrefTable** class from **PdfParser.py**
+
+    <img src="report_images\duru_images\[BEFORE]_delitem_.png" alt="Coverage Tool Output _delitem_()">
+
+    [Link to the commit](https://github.com/python-pillow/Pillow/commit/27c7ac4dadf950418e21883ef7f9b9a209a7b481#diff-bd96187377efc66d34e30b3558ed2fe22ca780c035fe3e8d40dd9881b4801c6c)
+
 **3. Isidora**
 
 - Function 1: `_save()` from **SpiderImagePlugin.py**
 
     [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/5701d33cbb789342ca781769d4ba7cd323c9255e#diff-44debbfd4d0c5a80130a15bdcd9e0b28c1b4fef6eda0eaaef48838c954589d15)
 
-    <img src="report_images/isidora_images/our_tool_save.png" alt="Coverage Tool Output" width="600" />
+    <img src="report_images/isidora_images/our_tool_save.png" alt="Diff" width="600" />
+
+    <img src="report_images/isidora_images/[BEFORE]_save_our_tool.jpg" alt="Coverage Tool Output" width="600" />
 
 - Function 2: `Bitstream.peek()` from **MpegImagePlugin.py**
 
     [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/70f6735620d2f8e469cbe5b60a4586c5db95624a#diff-0272f0c6b5871be3364fe2062e50944fba30dad9625c74d13340de7d3ad8d367)
 
     <img src="report_images/isidora_images/our_tool_peek.png" alt="Coverage Tool Output" width="600" />
+
+    <img src="report_images/isidora_images/[BEFORE]peek_our_tool.jpg" alt="Coverage Tool Output" width="600" />
+
 
 **4. Sofija**
 
@@ -142,6 +159,11 @@ the shared code in **conftest.py**.
 
 **2. Duru**
 
+- Function 1: `merge()` function from **Image.py**
+
+- Function 2: `_delitem_()` function from **XrefTable** class from **PdfParser.py**
+
+
 **3. Isidora**
 
 - Function 1: `_save()` from **SpiderImagePlugin.py**
@@ -152,6 +174,8 @@ the shared code in **conftest.py**.
 
     <img src="report_images/isidora_images/[AFTER]_save.png" alt="Coverage After" width="600" />
 
+    <img src="report_images/isidora_images/[AFTER]_save_our_tool.JPG" alt="Coverage Tool Output" width="600" />
+
 - Function 2: `Bitstream.peek()` from **MpegImagePlugin.py**
 
     [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/70f6735620d2f8e469cbe5b60a4586c5db95624a#diff-48e5b5451c5cab3fbb758ae58649082b62ae6f2850393a332949643d75bd4ad2)
@@ -159,6 +183,9 @@ the shared code in **conftest.py**.
     <img src="report_images/isidora_images/[BEFORE]peek.png" alt="Coverage Before" width="600" />
 
     <img src="report_images/isidora_images/[AFTER]peek.png" alt="Coverage After" width="600" />
+
+    <img src="report_images/isidora_images/[AFTER]peek_our_tool.JPG" alt="Coverage Tool Output" width="600" />
+
 
 **4. Sofija**
 
