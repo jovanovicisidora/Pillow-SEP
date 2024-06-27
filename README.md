@@ -207,15 +207,13 @@ the shared code in **conftest.py**.
 
     [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/70f6735620d2f8e469cbe5b60a4586c5db95624a#diff-f0eb82b90cfc005f681c774b3bf87f19b1db010750e49f850883005f4f623202)
 
+    <img src="report_images/isidora_images/isidora-function1-existingtool-original.png" alt="Coverage Tool Before" width="600" />
+
     <img src="report_images/isidora_images/[BEFORE]_save.png" alt="Coverage Before" width="600" />
 
     <img src="report_images/isidora_images/[AFTER]_save.png" alt="Coverage After" width="600" />
 
     <img src="report_images/isidora_images/[AFTER]_save_our_tool.JPG" alt="Coverage Tool Output" width="600" />
-
-    <img src="report_images/isidora_images/isidora-function1-existingtool-original.png" alt="Coverage Tool Before" width="600" />
-
-    <img src="report_images/isidora_images/isidora-function1-existing-improved.png" alt="Coverage Tool Before" width="600" />
 
     The coverage was improved from 75% to 100%. The new test tested this function when the header length was less than 256.
 
@@ -224,18 +222,15 @@ the shared code in **conftest.py**.
 
       [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/70f6735620d2f8e469cbe5b60a4586c5db95624a#diff-48e5b5451c5cab3fbb758ae58649082b62ae6f2850393a332949643d75bd4ad2)
 
+      <img src="report_images/isidora_images/isidora-function2-existingtool-original.png" alt="Coverage Tool Before" width="600" />
+
       <img src="report_images/isidora_images/[BEFORE]peek.png" alt="Coverage Before" width="600" />
 
       <img src="report_images/isidora_images/[AFTER]peek.png" alt="Coverage After" width="600" />
 
       <img src="report_images/isidora_images/[AFTER]peek_our_tool.JPG" alt="Coverage Tool Output" width="600" />
 
-      <img src="report_images/isidora_images/isidora-function2-existingtool-original.png" alt="Coverage Tool Before" width="600" />
-
-      <img src="report_images/isidora_images/isidora-function2-existing-improved.png" alt="Coverage Tool Before" width="600" />
-
-      The coverage was improved from 66.67% to 100%. The new test tested this function with the file pointer when the
-      next byte was less than 0.
+      The coverage was improved from 66.67% to 100%. The new test tested this function with the file pointer when the next byte was less than 0.
 
 
 **4. Sofija**
@@ -244,11 +239,11 @@ the shared code in **conftest.py**.
 
     [Link to commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/b4465c3711bbe7811b1f77d5d9cc78760f296463#diff-ffd01a62e614987be01f44aeed0c978fc9576964b6e6ff9d9bbba177044f1a28)
 
+    <img src="report_images/sofija_images/sofija-function1-existingtool-original.png" alt="Coverage Before with Existing Tool" width="600" />
+
     <img src="report_images/sofija_images/sofija-function1-existingtool-original-branches.png" alt="Coverage After" width="600" />
 
     <img src="report_images/sofija_images/sofija-function1-existing-improved-branches.png" alt="Coverage After" width="600" />
-
-    <img src="report_images/sofija_images/our_tool_branch7_before.png" alt="Coverage Before" width="600" />
 
     <img src="report_images/sofija_images/our_tool_branch7_after.png" alt="Coverage After" width="600" />
 
@@ -258,11 +253,11 @@ the shared code in **conftest.py**.
 
     [Link to commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/b4465c3711bbe7811b1f77d5d9cc78760f296463#diff-ce4d7f8290dcc8eeb3ae7c5ec7a56ecf43ca6eb92fcdc74284e788ab96ae3728)
 
+    <img src="report_images/sofija_images/sofija-function2-existingtool-original.png" alt="Coverage Before with Existing Tool" width="600" />
+
     <img src="report_images/sofija_images/sofija-function2-existingtool-original-branches.png" alt="Coverage After" width="600" />
 
     <img src="report_images/sofija_images/sofija-function2-existing-improved-branches.png" alt="Coverage After" width="600" />
-
-    <img src="report_images/sofija_images/our_tool_branch8_before.png" alt="Coverage Before" width="600" />
 
     <img src="report_images/sofija_images/our_tool_branch8_after.png" alt="Coverage After" width="600" />
 
