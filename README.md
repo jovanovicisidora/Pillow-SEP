@@ -68,7 +68,7 @@ the shared code in **conftest.py**.
     <img src="report_images\duru_images\duru-function1-existingtool-original-branches.png" alt="Branches Before with Existing Tool" width="600" />
 
     <img src="report_images\duru_images\[BEFORE]branchesmerge.png" alt="Branches Before" width="600" />
-    
+
     <img src="report_images\duru_images\[BEFORE]merge.png" alt="Coverage Tool Output merge()">
 
 - Function 2: `_delitem_()` function from **XrefTable** class from **PdfParser.py**
@@ -174,7 +174,7 @@ the shared code in **conftest.py**.
 
     <img src="report_images\duru_images\[AFTER]merge.png" alt="Coverage After" width="600" />
 
-    The improvement was made as 3 test cases were enhanced, inputting wrong number of bands, mismatched mode and lastly, mismatched size. This was done through calling the function `merge()`, assigning an image class which had parameters having the previously mentioned specific inputs. These new parameters given helped cover all 3 remaining branches in order to test the wrong inputs for merging the Image objects and mismatched parameters, allowing the coverage to be fully complete. 
+    The improvement was made as 3 test cases were enhanced, inputting wrong number of bands, mismatched mode and lastly, mismatched size. This was done through calling the function `merge()`, assigning an image class which had parameters having the previously mentioned specific inputs. These new parameters given helped cover all 3 remaining branches in order to test the wrong inputs for merging the Image objects and mismatched parameters, allowing the coverage to be fully complete.
 
 - Function 2: `_delitem_()` function from **XrefTable** class from **PdfParser.py**
 
@@ -258,11 +258,11 @@ the shared code in **conftest.py**.
 
 First we provide a screenshot of the old coverage results by running an existing tool:
 
-![Coverage Results Before](report_images\duru_images\overallcoverage-before.png)
+<img src="report_images/duru_images/overallcoverage-before.png" alt="Coverage Results Before" width="600" />
 
 Here we show the improved overall coverage with all test modifications made by out group:
 
-![Coverage Results After](report_images\duru_images\[AFTER]overall.png)
+<img src="report_images/duru_images/[AFTER]overall.png" alt="Coverage Results Before" width="600" />
 
 ## Statement of individual contributions
 
