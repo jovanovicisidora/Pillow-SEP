@@ -2,10 +2,6 @@ import pytest
 
 from PIL import Image
 
-def calculate_branch_coverage():
-    b = Image.Branches
-    print("Branches covered:", sum(b.values()))
-
 
 def test_merge_wrong_number_of_bands():
     R = Image.new('L', (100, 100), color=255)
