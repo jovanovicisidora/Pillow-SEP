@@ -242,6 +242,8 @@ the shared code in **conftest.py**.
 
     <img src="report_images/sofija_images/our_tool_branch7_after.png" alt="Coverage After" width="600" />
 
+    The function improves the coverage by testing both the normal execution (the methods return None, and it checks if the decode method returns (-1, 0)) and error handling (these methods raise a struct.error exception, and it checks if the decode method raises an OSError with the message "Truncated BLP file"). This improves the coverage from 50% to 100%.
+
 - Function 2: 'read_32t()' from **IcnsImagePlugin.py**
 
     [Link to commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/b4465c3711bbe7811b1f77d5d9cc78760f296463#diff-ce4d7f8290dcc8eeb3ae7c5ec7a56ecf43ca6eb92fcdc74284e788ab96ae3728)
@@ -253,6 +255,8 @@ the shared code in **conftest.py**.
     <img src="report_images/sofija_images/our_tool_branch8_before.png" alt="Coverage Before" width="600" />
 
     <img src="report_images/sofija_images/our_tool_branch8_after.png" alt="Coverage After" width="600" />
+
+    The function improves the coverage by testing both the normal execution (with the valid input object of 12 bytes) and error handling (with the invalid object of 4 bytes). It makes sure that in both scenarios the correct thing is being done, wheather that be raising a SyntaxError or asserting that the result is an instance of a dictionary. This improves the coverage from 50% to 100%.
 
 ### Overall
 
