@@ -74,13 +74,18 @@ the shared code in **conftest.py**.
 
     [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/5701d33cbb789342ca781769d4ba7cd323c9255e#diff-44debbfd4d0c5a80130a15bdcd9e0b28c1b4fef6eda0eaaef48838c954589d15)
 
-    <img src="report_images/isidora_images/our_tool_save.png" alt="Coverage Tool Output" width="600" />
+    <img src="report_images/isidora_images/our_tool_save.png" alt="Diff" width="600" />
+
+    <img src="report_images/isidora_images/[BEFORE]_save_our_tool.jpg" alt="Coverage Tool Output" width="600" />
 
 - Function 2: `Bitstream.peek()` from **MpegImagePlugin.py**
 
     [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/70f6735620d2f8e469cbe5b60a4586c5db95624a#diff-0272f0c6b5871be3364fe2062e50944fba30dad9625c74d13340de7d3ad8d367)
 
     <img src="report_images/isidora_images/our_tool_peek.png" alt="Coverage Tool Output" width="600" />
+
+    <img src="report_images/isidora_images/[BEFORE]peek_our_tool.jpg" alt="Coverage Tool Output" width="600" />
+
 
 **4. Sofija**
 
@@ -136,6 +141,8 @@ the shared code in **conftest.py**.
 
     <img src="report_images/isidora_images/[AFTER]_save.png" alt="Coverage After" width="600" />
 
+    <img src="report_images/isidora_images/[AFTER]_save_our_tool.jpg" alt="Coverage Tool Output" width="600" />
+
 - Function 2: `Bitstream.peek()` from **MpegImagePlugin.py**
 
     [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/70f6735620d2f8e469cbe5b60a4586c5db95624a#diff-48e5b5451c5cab3fbb758ae58649082b62ae6f2850393a332949643d75bd4ad2)
@@ -143,6 +150,8 @@ the shared code in **conftest.py**.
     <img src="report_images/isidora_images/[BEFORE]peek.png" alt="Coverage Before" width="600" />
 
     <img src="report_images/isidora_images/[AFTER]peek.png" alt="Coverage After" width="600" />
+
+    <img src="report_images/isidora_images/[AFTER]peek_our_tool.jpg" alt="Coverage Tool Output" width="600" />
 
 **4. Sofija**
 
