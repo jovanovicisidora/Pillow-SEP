@@ -26,7 +26,7 @@ We used Coverage.py. We executed the coverage tool by running the following comm
 
 `python3 -bb -m pytest -v -x -W always --cov PIL --cov Tests --cov-report term Tests $REVERSE`
 
-or running 
+or running
 
 `./.ci/tests.sh` in the root directory of the project
 
@@ -195,15 +195,29 @@ the shared code in **conftest.py**.
 
     <img src="report_images/isidora_images/[AFTER]_save_our_tool.JPG" alt="Coverage Tool Output" width="600" />
 
-- Function 2: `Bitstream.peek()` from **MpegImagePlugin.py**
+    <img src="report_images/isidora_images/isidora-function1-existingtool-original.png" alt="Coverage Tool Before" width="600" />
 
-    [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/70f6735620d2f8e469cbe5b60a4586c5db95624a#diff-48e5b5451c5cab3fbb758ae58649082b62ae6f2850393a332949643d75bd4ad2)
+    <img src="report_images/isidora_images/isidora-function1-existing-improved.png" alt="Coverage Tool Before" width="600" />
 
-    <img src="report_images/isidora_images/[BEFORE]peek.png" alt="Coverage Before" width="600" />
+    The coverage was improved from 75% to 100%. The new test tested this function when the header length was less than 256.
 
-    <img src="report_images/isidora_images/[AFTER]peek.png" alt="Coverage After" width="600" />
 
-    <img src="report_images/isidora_images/[AFTER]peek_our_tool.JPG" alt="Coverage Tool Output" width="600" />
+  - Function 2: `Bitstream.peek()` from **MpegImagePlugin.py**
+
+      [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/70f6735620d2f8e469cbe5b60a4586c5db95624a#diff-48e5b5451c5cab3fbb758ae58649082b62ae6f2850393a332949643d75bd4ad2)
+
+      <img src="report_images/isidora_images/[BEFORE]peek.png" alt="Coverage Before" width="600" />
+
+      <img src="report_images/isidora_images/[AFTER]peek.png" alt="Coverage After" width="600" />
+
+      <img src="report_images/isidora_images/[AFTER]peek_our_tool.JPG" alt="Coverage Tool Output" width="600" />
+
+      <img src="report_images/isidora_images/isidora-function2-existingtool-original.png" alt="Coverage Tool Before" width="600" />
+
+      <img src="report_images/isidora_images/isidora-function2-existing-improved.png" alt="Coverage Tool Before" width="600" />
+
+      The coverage was improved from 66.67% to 100%. The new test tested this function with the file pointer when the
+      next byte was less than 0.
 
 
 **4. Sofija**
