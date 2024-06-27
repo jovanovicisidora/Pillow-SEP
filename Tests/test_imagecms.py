@@ -707,10 +707,10 @@ def test_buildTransform_flags_non_integer():
             inMode="RGB",
             outMode="CMYK",
             renderingIntent=ImageCms.Intent.PERCEPTUAL,
-            flags=123
+            flags="not_an_integer"
         )
 
-def test_buildTransform_flags_invalid():
+def test_buildTransform_flags_out_of_range():
     with pytest.raises(ImageCms.PyCMSError):
         ImageCms.buildTransform(
             inputProfile="path/to/input/profile",
@@ -721,7 +721,7 @@ def test_buildTransform_flags_invalid():
             flags=999999
         )
 
-def test_rendering_intent_non_integer():
+def test_renderingIntent_non_integer():
     with pytest.raises(ImageCms.PyCMSError) as exc_info:
         ImageCms.buildTransform(
             inputProfile="path/to/input/profile",
@@ -732,3 +732,4 @@ def test_rendering_intent_non_integer():
             flags=0
         )
     assert str(exc_info.value) == "renderingIntent must be an integer between 0 and 3"
+

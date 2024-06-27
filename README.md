@@ -54,6 +54,18 @@ the shared code in **conftest.py**.
 
 **1. Deekshu**
 
+- Function 1: `buildTransform()` from **ImageCms.py**
+
+    [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/b235d0e1c19c64870155094e98477ea9377655f2#diff-bd1e1b1de6e5b72a2a01d9d5ea74efe89541f209db5b30c16b975af71e308c67)
+
+    <img src="report_images/deekshu_images/[BEFORE]buildTransform.png" alt="Coverage Tool Output" width="600" />
+
+- Function 2: `encode_to_file` from **ImageFile.py**
+
+    [Link to the commit](https://github.com/python-pillow/Pillow/commit/4f31cd7a31a6be2ac38773bab6f0a5451480f5b8#diff-4668a28f508bbcb68e61f9b257415dc814c22e8bb24850629fe7788ae5b7475c)
+
+    <img src="report_images/deekshu_images/[BEFORE]encode_to_file.png" alt="Coverage Tool Output" width="600" />
+
 **2. Duru**
 
 **3. Isidora**
@@ -62,13 +74,13 @@ the shared code in **conftest.py**.
 
     [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/5701d33cbb789342ca781769d4ba7cd323c9255e#diff-44debbfd4d0c5a80130a15bdcd9e0b28c1b4fef6eda0eaaef48838c954589d15)
 
-    <img src="report_images/isidora_images/our_tool_save.png" alt="Implemented Coverage Tool" width="600" />
+    <img src="report_images/isidora_images/our_tool_save.png" alt="Coverage Tool Output" width="600" />
 
 - Function 2: `Bitstream.peek()` from **MpegImagePlugin.py**
 
     [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/70f6735620d2f8e469cbe5b60a4586c5db95624a#diff-0272f0c6b5871be3364fe2062e50944fba30dad9625c74d13340de7d3ad8d367)
 
-    <img src="report_images/isidora_images/our_tool_peek.png" alt="Implemented Coverage Tool" width="600" />
+    <img src="report_images/isidora_images/our_tool_peek.png" alt="Coverage Tool Output" width="600" />
 
 **4. Sofija**
 
@@ -95,6 +107,22 @@ the shared code in **conftest.py**.
 <Provide the same kind of information provided for Test 1>
 
 **1. Deekshu**
+
+- Function 1: `buildTransform()` from **ImageCms.py**
+
+    [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/52965eed2de5ca44eeb6c6dfb1f11778d369c6f7)
+
+    <img src="report_images/deekshu_images/[BEFORE]buildTransform.png" alt="Coverage Before" width="600" />
+
+    <img src="report_images/deekshu_images/[AFTER]buildTransform.png" alt="Coverage After" width="600" />
+
+- Function 2: `encode_to_file` from **ImageFile.py**
+
+    [Link to the commit](https://github.com/python-pillow/Pillow/commit/e39e422ca66b8cc8fbe4dbaceffa624af05f0088)
+
+    <img src="report_images/deekshu_images/[BEFORE]encode_to_file.png" alt="Coverage Before" width="600" />
+
+    <img src="report_images/deekshu_images/[AFTER]encode_to_file.png" alt="Coverage After" width="600" />
 
 **2. Duru**
 
@@ -126,11 +154,11 @@ First we provide a screenshot of the old coverage results by running an existing
 
 Here we show the improved overall coverage with all test modifications made by out group:
 
-![Coverage Results After](path/to/image)
+![Coverage Results After](PENDING)
 
 ## Statement of individual contributions
 
 Each group member had an equal contribution to the assignment. We first met together to determine
 how we can make a coverage tool that can be used across all functions (in conftest.py). Then, each
-member chose two functions to instrument our coverage tool on and to make/enhance tests for them.
+member chose two functions to instrument our coverage tool on and to make/enhance tests for their branch improvement.
 The specific functions each member chose can be seen in the report above.
