@@ -6,21 +6,24 @@ from PIL import Image
 from PIL import PdfParser
 from PIL import SpiderImagePlugin
 from PIL import MpegImagePlugin
-from PIL import ImageCms
+from PIL import BlpImagePlugin
+from PIL import IcnsImagePlugin
 from PIL import ImageFile
+from PIL import ImageCms
 
 pytest_plugins = ["Tests.helper"]
 
 
 def calculate_coverage(test_name):
     all_branches = {
-        "branches1": Image.branches,                        # duru
-        "branches2": PdfParser.XrefTable.branches,          # duru
-        "branches3": SpiderImagePlugin.branches,            # isidora
-        "branches4": MpegImagePlugin.BitStream.branches,    # isidora
-        "branches5": ImageCms.branches,                     # deekshu
-        "branches6": ImageFile.PyEncoder.branches,          # deekshu
-        # Add more
+        "branches1": Image.branches,                          # duru
+        "branches2": PdfParser.XrefTable.branches,            # duru
+        "branches3": SpiderImagePlugin.branches,              # isidora
+        "branches4": MpegImagePlugin.BitStream.branches,      # isidora
+        "branches5": ImageCms.branches,                       # deekshu
+        "branches6": ImageFile.PyEncoder.branches,            # deekshu
+        "branches7": BlpImagePlugin._BLPBaseDecoder.branches, # sofija
+        "branches8": IcnsImagePlugin.branches,                # sofija
     }
 
     for name, branches in all_branches.items():

@@ -277,13 +277,20 @@ class BlpImageFile(ImageFile.ImageFile):
 
 
 class _BLPBaseDecoder(ImageFile.PyDecoder):
+    branches = {
+            "1": False,
+            "2": False,
+    }
+
     _pulls_fd = True
 
     def decode(self, buffer: bytes) -> tuple[int, int]:
         try:
+            _BLPBaseDecoder.branches["1"] = True
             self._read_blp_header()
             self._load()
         except struct.error as e:
+            _BLPBaseDecoder.branches["2"] = True
             msg = "Truncated BLP file"
             raise OSError(msg) from e
         return -1, 0

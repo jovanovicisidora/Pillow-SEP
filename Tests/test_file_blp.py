@@ -2,7 +2,12 @@ from __future__ import annotations
 
 from pathlib import Path
 
+import struct
 import pytest
+from unittest.mock import Mock, patch
+from PIL.BlpImagePlugin import _BLPBaseDecoder
+from PIL.BlpImagePlugin import BLP1Decoder
+
 
 from PIL import Image
 
@@ -20,7 +25,6 @@ def test_load_blp1() -> None:
 
     with Image.open("Tests/images/blp/blp1_jpeg2.blp") as im:
         im.load()
-
 
 def test_load_blp2_raw() -> None:
     with Image.open("Tests/images/blp/blp2_raw.blp") as im:
@@ -76,3 +80,22 @@ def test_crashes(test_file: str) -> None:
         with Image.open(f) as im:
             with pytest.raises(OSError):
                 im.load()
+
+def test_decode():
+    # Create a mock instance of BLP1Decoder with 'RGB' as the mode
+    decoder = BLP1Decoder('RGB')
+
+    # Mock the _read_blp_header and _load methods to simulate normal execution
+    with patch.object(decoder, '_read_blp_header', return_value=None), \
+        patch.object(decoder, '_load', return_value=None):
+        # Call the decode method and verify that it returns (-1, 0)
+        assert decoder.decode(b'') == (-1, 0)
+
+    # Mock the _read_blp_header and _load methods to raise a struct.error
+    with patch.object(decoder, '_read_blp_header', side_effect=struct.error), \
+        patch.object(decoder, '_load', side_effect=struct.error):
+
+        # Call the decode method and verify that it raises an OSError with the expected message
+        with pytest.raises(OSError, match="Truncated BLP file"):
+            decoder.decode(b'')
+
