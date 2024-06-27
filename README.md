@@ -97,6 +97,8 @@ the shared code in **conftest.py**.
 
     [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/5701d33cbb789342ca781769d4ba7cd323c9255e#diff-44debbfd4d0c5a80130a15bdcd9e0b28c1b4fef6eda0eaaef48838c954589d15)
 
+    <img src="report_images/isidora_images/isidora-function1-existingtool-original.png" alt="Coverage Before with Existing Tool" width="600" />
+
     <img src="report_images/isidora_images/our_tool_save.png" alt="Diff" width="600" />
 
     <img src="report_images/isidora_images/[BEFORE]_save_our_tool.jpg" alt="Coverage Tool Output" width="600" />
@@ -104,6 +106,8 @@ the shared code in **conftest.py**.
 - Function 2: `Bitstream.peek()` from **MpegImagePlugin.py**
 
     [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/70f6735620d2f8e469cbe5b60a4586c5db95624a#diff-0272f0c6b5871be3364fe2062e50944fba30dad9625c74d13340de7d3ad8d367)
+
+    <img src="report_images/isidora_images/isidora-function2-existingtool-original.png" alt="Coverage Before with Existing Tool" width="600" />
 
     <img src="report_images/isidora_images/our_tool_peek.png" alt="Diff" width="600" />
 
@@ -116,6 +120,8 @@ the shared code in **conftest.py**.
 
     [Link to commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/5b375becfba73dbf9901c803348c0561f4c0021e)
 
+    <img src="report_images/sofija_images/sofija-function1-existingtool-original.png" alt="Coverage Before with Existing Tool" width="600" />
+
     <img src="report_images/sofija_images/our_tool_decode.png" alt="Diff" width="600" />
 
     <img src="report_images/sofija_images/our_tool_branch7_before.png" alt="Coverage Tool Output" width="600" />
@@ -124,6 +130,8 @@ the shared code in **conftest.py**.
 
     [Link to commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/0496f0b1bcca554ea5fcad0e53a672551bd7c101#diff-bb9af648f9d6055f580440e268d715dae9a22a2c4bfd47afd18bd834c05e96d2)
 
+    <img src="report_images/sofija_images/sofija-function2-existingtool-original.png" alt="Coverage Before with Existing Tool" width="600" />
+
     <img src="report_images/sofija_images/our_tool_read_32t.png" alt="Diff" width="600" />
 
     <img src="report_images/sofija_images/our_tool_branch8_before.png" alt="Coverage Tool Output" width="600" />
@@ -131,24 +139,6 @@ the shared code in **conftest.py**.
 ## Coverage improvement
 
 ### Individual tests
-
-<The following is supposed to be repeated for each group member>
-
-<Group member name>
-
-<Test 1>
-
-<Show a patch (diff) or a link to a commit made in your forked repository that shows the new/enhanced test>
-
-<Provide a screenshot of the old coverage results (the same as you already showed above)>
-
-<Provide a screenshot of the new coverage results>
-
-<State the coverage improvement with a number and elaborate on why the coverage is improved>
-
-<Test 2>
-
-<Provide the same kind of information provided for Test 1>
 
 **1. Deekshu**
 
