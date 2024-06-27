@@ -93,7 +93,7 @@ the shared code in **conftest.py**.
 
     [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/70f6735620d2f8e469cbe5b60a4586c5db95624a#diff-0272f0c6b5871be3364fe2062e50944fba30dad9625c74d13340de7d3ad8d367)
 
-    <img src="report_images/isidora_images/our_tool_peek.png" alt="Coverage Tool Output" width="600" />
+    <img src="report_images/isidora_images/our_tool_peek.png" alt="Diff" width="600" />
 
     <img src="report_images/isidora_images/[BEFORE]peek_our_tool.jpg" alt="Coverage Tool Output" width="600" />
 
@@ -104,7 +104,7 @@ the shared code in **conftest.py**.
 
     [Link to commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/5b375becfba73dbf9901c803348c0561f4c0021e)
 
-    <img src="report_images/sofija_images/our_tool_decode.png" alt="Coverage Tool Output" width="600" />
+    <img src="report_images/sofija_images/our_tool_decode.png" alt="Diff" width="600" />
 
     <img src="report_images/sofija_images/our_tool_branch7_before.png" alt="Coverage Tool Output" width="600" />
 
@@ -112,7 +112,7 @@ the shared code in **conftest.py**.
 
     [Link to commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/0496f0b1bcca554ea5fcad0e53a672551bd7c101#diff-bb9af648f9d6055f580440e268d715dae9a22a2c4bfd47afd18bd834c05e96d2)
 
-    <img src="report_images/sofija_images/our_tool_read_32t.png" alt="Coverage Tool Output" width="600" />
+    <img src="report_images/sofija_images/our_tool_read_32t.png" alt="Diff" width="600" />
 
     <img src="report_images/sofija_images/our_tool_branch8_before.png" alt="Coverage Tool Output" width="600" />
 
@@ -216,7 +216,7 @@ the shared code in **conftest.py**.
 
     <img src="report_images/sofija_images/sofija-function1-existing-improved-branches.png" alt="Coverage After" width="600" />
 
-    <img src="report_images/sofija_images/our_tool_branch7_before.png" alt="Coverage After" width="600" />
+    <img src="report_images/sofija_images/our_tool_branch7_before.png" alt="Coverage Before" width="600" />
 
     <img src="report_images/sofija_images/our_tool_branch7_after.png" alt="Coverage After" width="600" />
 
@@ -228,7 +228,7 @@ the shared code in **conftest.py**.
 
     <img src="report_images/sofija_images/sofija-function2-existing-improved-branches.png" alt="Coverage After" width="600" />
 
-    <img src="report_images/sofija_images/our_tool_branch8_before.png" alt="Coverage After" width="600" />
+    <img src="report_images/sofija_images/our_tool_branch8_before.png" alt="Coverage Before" width="600" />
 
     <img src="report_images/sofija_images/our_tool_branch8_after.png" alt="Coverage After" width="600" />
 
