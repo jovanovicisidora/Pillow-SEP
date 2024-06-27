@@ -141,7 +141,7 @@ the shared code in **conftest.py**.
 
     <img src="report_images/isidora_images/[AFTER]_save.png" alt="Coverage After" width="600" />
 
-    <img src="report_images/isidora_images/[AFTER]_save_our_tool.jpg" alt="Coverage Tool Output" width="600" />
+    <img src="report_images/isidora_images/[AFTER]_save_our_tool.JPG" alt="Coverage Tool Output" width="600" />
 
 - Function 2: `Bitstream.peek()` from **MpegImagePlugin.py**
 
@@ -151,7 +151,8 @@ the shared code in **conftest.py**.
 
     <img src="report_images/isidora_images/[AFTER]peek.png" alt="Coverage After" width="600" />
 
-    <img src="report_images/isidora_images/[AFTER]peek_our_tool.jpg" alt="Coverage Tool Output" width="600" />
+    <img src="report_images/isidora_images/[AFTER]peek_our_tool.JPG" alt="Coverage Tool Output" width="600" />
+
 
 **4. Sofija**
 
