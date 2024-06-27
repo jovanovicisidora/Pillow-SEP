@@ -68,6 +68,15 @@ the shared code in **conftest.py**.
 
 **2. Duru**
 
+- Function 1: `merge()` function from **Image.py**
+
+    <img src="report_images\duru_images\[BEFORE]merge.png" alt="Coverage Tool Output merge()">
+
+- Function 2: `_delitem_()` function from **XrefTable** class from **PdfParser.py**
+
+    <img src="report_images\duru_images\[BEFORE]_delitem_.png" alt="Coverage Tool Output _delitem_()">
+
+
 **3. Isidora**
 
 - Function 1: `_save()` from **SpiderImagePlugin.py**
@@ -130,6 +139,11 @@ the shared code in **conftest.py**.
     <img src="report_images/deekshu_images/[AFTER]encode_to_file.png" alt="Coverage After" width="600" />
 
 **2. Duru**
+
+- Function 1: `merge()` function from **Image.py**
+
+- Function 2: `_delitem_()` function from **XrefTable** class from **PdfParser.py**
+
 
 **3. Isidora**
 
