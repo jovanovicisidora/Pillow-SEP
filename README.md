@@ -34,7 +34,7 @@ yields the same results for coverage reports as the project test shell file incl
 
 This resulted in the following output:
 
-[Coverage Tool Result](report_images\duru_images\overallcoverage-before.png)
+<img src="report_images/duru_images/overallcoverage-before.png" alt="Coverage Results Before" width="600" />
 
 ### Your own coverage tool
 
