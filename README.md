@@ -49,11 +49,19 @@ the shared code in **conftest.py**.
 
     [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/b235d0e1c19c64870155094e98477ea9377655f2#diff-bd1e1b1de6e5b72a2a01d9d5ea74efe89541f209db5b30c16b975af71e308c67)
 
+    <img src="report_images/deekshu_images/deekshu-function1-existingtool-original.png" alt="Coverage Before with Existing Tool" width="600" />
+
+    <img src="report_images/deekshu_images/deekshu-function1-existingtool-original-branches2.png" alt="Branches Before with Existing Tool" width="600" />
+
     <img src="report_images/deekshu_images/[BEFORE]buildTransform.png" alt="Coverage Tool Output" width="600" />
 
 - Function 2: `encode_to_file` from **ImageFile.py**
 
     [Link to the commit](https://github.com/python-pillow/Pillow/commit/4f31cd7a31a6be2ac38773bab6f0a5451480f5b8#diff-4668a28f508bbcb68e61f9b257415dc814c22e8bb24850629fe7788ae5b7475c)
+
+    <img src="report_images/deekshu_images/deekshu-function2-existingtool-original.png" alt="Coverage Before with Existing Tool" width="600" />
+
+    <img src="report_images/deekshu_images/deekshu-function2-existingtool-original-branches.png" alt="Branches Before with Existing Tool" width="600" />
 
     <img src="report_images/deekshu_images/[BEFORE]encode_to_file.png" alt="Coverage Tool Output" width="600" />
 
@@ -148,17 +156,29 @@ the shared code in **conftest.py**.
 
     [Link to the commit](https://github.com/jovanovicisidora/Pillow-SEP/commit/52965eed2de5ca44eeb6c6dfb1f11778d369c6f7)
 
-    <img src="report_images/deekshu_images/[BEFORE]buildTransform.png" alt="Coverage Before" width="600" />
+    <img src="report_images/deekshu_images/deekshu-function1-existingtool-original.png" alt="Coverage Before with Existing Tool" width="600" />
+
+    <img src="report_images/deekshu_images/deekshu-function1-existingtool-original-branches2.png" alt="Branches Before with Existing Tool" width="600" />
+
+    <img src="report_images/deekshu_images/deekshu-function2-existing-improved-branches2.png" alt="Branches After with Existing Tool" width="600" />
 
     <img src="report_images/deekshu_images/[AFTER]buildTransform.png" alt="Coverage After" width="600" />
+
+    The improvement of this function changed from 66.7% to 100% through test improvement. The coverage improved because the enhanced tests ensure that the uncovered branches work correctly by verifying the behavior of the ImageCms.buildTransform function when it is provided with invalid arguments.
 
 - Function 2: `encode_to_file` from **ImageFile.py**
 
     [Link to the commit](https://github.com/python-pillow/Pillow/commit/e39e422ca66b8cc8fbe4dbaceffa624af05f0088)
 
-    <img src="report_images/deekshu_images/[BEFORE]encode_to_file.png" alt="Coverage Before" width="600" />
+    <img src="report_images/deekshu_images/deekshu-function2-existingtool-original.png" alt="Coverage Before with Existing Tool" width="600" />
+
+    <img src="report_images/deekshu_images/deekshu-function2-existingtool-original-branches.png" alt="Branches Before with Existing Tool" width="600" />
+
+    <img src="report_images/deekshu_images/deekshu-function1-existing-improved-branches.png" alt="Branches After with Existing Tool" width="600" />
 
     <img src="report_images/deekshu_images/[AFTER]encode_to_file.png" alt="Coverage After" width="600" />
+
+    The improvement of this function changed from 50% to 100% through test improvement. Encoding to file method is thoroughly tested against potential edge cases and unexpected conditions, which increases confidence in it being correct.
 
 **2. Duru**
 
